@@ -1,9 +1,9 @@
 # Stack-Overflow-Web-Scraper
 STA141 Project 6
 
-"scrape_stack_overflow" accepts a Stack Overflow tag (e.g. "r", "javascript") and either a number of pages or number of questions to scrape. The script then extracts summary information from each question (e.g. user, date, current views, current votes) up to to specified number of pages/questions.
+"scrape_stack_overflow" accepts a Stack Overflow tag (e.g. "r", "javascript") and either a number of pages or number of questions to scrape. The script then extracts summary information from each question (e.g. user, date, current views, current votes) up to to specified number of pages/questions. This was written for Part 1.
 
-"scrape_all_posts" accepts a list of Stack Overflow question urls (which can be gathered using scrape_stack_overflow) and extracts the question, answers and comments from each post's page, as well as summary information (e.g. user, date, text).
+"scrape_all_posts" accepts a list of Stack Overflow question urls (which can be gathered using scrape_stack_overflow) and extracts the question, answers and comments from each post's page, as well as summary information (e.g. user, date, text). This was written for Part 2.
 
 
 
