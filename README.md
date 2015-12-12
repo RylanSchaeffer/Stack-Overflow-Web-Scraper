@@ -5,18 +5,20 @@ Specific Instructions (currently available online at http://eeyore.ucdavis.edu/s
 
 Part 1 - Scraping the Summaries of the Posts
 
-    Process the current summary page of posts, starting with the first page of results
-    For each post, extract information about
-        who posted it,
-        when it was posted,
-        the title of the post
-        the reputation level of the poster,
-        the current number of views for the post,
-        the current number of answers for the post,
-        the vote "score" for the post,
-        the URL for the page with the post, answers and comments,
-        the id (a number) uniquely identifying the post.
-    Obtain the URL for the "next" page listing posts
+Process the current summary page of posts, starting with the first page of results. For each post, extract information about
+
+    who posted it,
+    when it was posted,
+    the title of the post
+    the reputation level of the poster,
+    the current number of views for the post,
+    the current number of answers for the post,
+    the vote "score" for the post,
+    the URL for the page with the post, answers and comments,
+    the id (a number) uniquely identifying the post.
+
+Obtain the URL for the "next" page listing posts
+    
     repeat steps 1, 2, 3
 
 Of course, you need to write functions to do the different steps. Your top-level function should allow the caller specify which forum/top-level tag (e.g., r, javascript, d3.js) to scrape. It should also allow the caller to specify a limit on the number of posts to process, either the number of pages or the total number of posts. If this is not specified, it should process all of the pages for this topic/tag.
